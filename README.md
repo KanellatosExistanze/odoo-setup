@@ -25,24 +25,6 @@ This command will:
 
 ---
 
-## 📅 Scheduling the Script to Run Every Day
-
-1️⃣ Launch the terminal and enter this command to modify the cron jobs:
-
-```sh
-crontab -e
-```
-
-2️⃣ Insert this line to schedule the script to execute at 10:00 AM daily:
-
-```sh
-0 10 * * * /bin/bash /usr/local/bin/odoo_setup
-```
-
-3️⃣ To save and exit, hit CTRL + X, then Y to confirm, and press Enter to complete the process.
-
----
-
 ## 🔗 Adding to System Path
 
 To make the script globally accessible, follow these steps:
@@ -68,6 +50,24 @@ Once added to the path, you can run the script from anywhere using:
 ```sh
 odoo_setup
 ```
+
+---
+
+## 📅 Scheduling the Script to Run Every Day at 10
+
+1️⃣ Launch the terminal and enter this command to modify the cron jobs:
+
+```sh
+EDITOR=nano crontab -e
+```
+
+2️⃣ Insert this line to schedule the script to execute at 10:00 AM daily:
+
+```sh
+0 10 * * * /bin/bash /usr/local/bin/odoo_setup
+```
+
+3️⃣ To save and exit, hit CTRL + X, then Y to confirm, and press Enter to complete the process.
 
 ---
 
