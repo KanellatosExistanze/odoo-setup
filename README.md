@@ -51,7 +51,7 @@ odoo_setup
 ## ✅ Requirements
 
 - 🖥️ **macOS** with Git installed
-- 🔑 **SSH keys configured** (for private repositories like `odoo-enterprise` on Bitbucket)
+- [Link text]([https://website-name.com](https://existanze.atlassian.net/wiki/spaces/DEVELOPERS/pages/55641038/Public+Keys) '🔑 **SSH keys configured** (for private repositories like `odoo-enterprise` on Bitbucket)')
 
 ---
 
