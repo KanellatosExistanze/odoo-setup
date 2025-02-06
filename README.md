@@ -6,7 +6,7 @@ This script automates the process of setting up Odoo repositories for multiple v
 
 ## ✅ Requirements
 
-- 🖥️ **macOS** with Git installed
+- 🖥️ [**MacBook** with Development Practices setup ans installed]([https://existanze.atlassian.net/wiki/spaces/DEVELOPERS/pages/55641038/Public+Keys](https://existanze.atlassian.net/wiki/spaces/DEVELOPERS/pages/1606025221/The+basics))
 - 🔑 [**SSH keys configured**](https://existanze.atlassian.net/wiki/spaces/DEVELOPERS/pages/55641038/Public+Keys) (for private repositories like `odoo-enterprise` on Bitbucket)
 
 ---
