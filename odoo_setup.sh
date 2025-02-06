@@ -15,3 +15,5 @@ for v in 13.0 14.0 15.0 16.0 17.0 18.0; do
         fi
     done
 done
+
+cd $HOME 
