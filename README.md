@@ -6,7 +6,7 @@ This script automates the process of setting up Odoo repositories for multiple v
 
 ## 📌 Usage
 
-To run the script directly from GitHub, execute the following command in your terminal:
+To run the script straight from GitHub, just type this command in your terminal while you're in your home directory:
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/KanellatosExistanze/odoo-setup/main/odoo_setup.sh)"
@@ -51,8 +51,7 @@ odoo_setup
 ## ✅ Requirements
 
 - 🖥️ **macOS** with Git installed
-- [🔑 **SSH keys configured** (for private repositories like `odoo-enterprise` on Bitbucket)](https://existanze.atlassian.net/wiki/spaces/DEVELOPERS/pages/55641038/Public+Keys)
-
-
+- 🔑 [**SSH keys configured**](https://existanze.atlassian.net/wiki/spaces/DEVELOPERS/pages/55641038/Public+Keys) (for private repositories like `odoo-enterprise` on Bitbucket)
+- 
 ---
 
